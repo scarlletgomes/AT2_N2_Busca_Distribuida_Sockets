@@ -31,6 +31,8 @@ public class ServidorA {
             String busca = in.readLine();
             System.out.println("Busca recebida do cliente: " + busca);
             
+            //String[][] dadosLocais = ManipulacaoDeDados.lerDados("arquivos_dados\\data_A.json");
+            
             // MECANISMO DE BUSCAS
             Thread threadLocal = new Thread(new Runnable() {
                 public void run() {
