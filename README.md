@@ -27,7 +27,7 @@ Projeto realizado em Java 17, execute o arquivo main.java.
 
 # Autores
 
-|[<img src="https://avatars.githubusercontent.com/u/112136979?v=4" width=115><br><sub> Matheus Anderson </sub>](https://github.com/AnderMath7)|[<img src="https://avatars.githubusercontent.com/u/111534933?v=4" width=115><br><sub> Rafael Araujo </sub>](https://github.com/RafaKHR)|[<img src="https://avatars.githubusercontent.com/u/86412432?v=4" width=115><br><sub> Scarllet Gomes </sub>](https://github.com/Scarlletgomes)|[<img src="https://avatars.githubusercontent.com/u/111467048?v=4" width=115><br><sub> Wallacy William </sub>](https://github.com/Wallacy0157) | Vinicius 
+|[<img src="https://avatars.githubusercontent.com/u/112136979?v=4" width=115><br><sub> Matheus Anderson </sub>](https://github.com/AnderMath7)|[<img src="https://avatars.githubusercontent.com/u/111534933?v=4" width=115><br><sub> Rafael Araujo </sub>](https://github.com/RafaKHR)|[<img src="https://avatars.githubusercontent.com/u/86412432?v=4" width=115><br><sub> Scarllet Gomes </sub>](https://github.com/Scarlletgomes)|[<img src="https://avatars.githubusercontent.com/u/111467048?v=4" width=115><br><sub> Wallacy William </sub>](https://github.com/Wallacy0157) | [<img src="https://media.licdn.com/dms/image/v2/D4D03AQFwmzxy7oWn5w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1699647540240?e=1737590400&v=beta&t=2KdqslphuawsuwXFXjrLYjc2_J_IJMfsRBrdkDkP5SA" width=115><br><sub> Vinícius Baltazar </sub>](https://github.com/vinibalt)| 
 | :---: | :---: | :---: | :---: |:---: | 
 
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
