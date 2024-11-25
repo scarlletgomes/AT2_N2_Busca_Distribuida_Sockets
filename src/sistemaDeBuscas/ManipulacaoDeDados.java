@@ -26,4 +26,44 @@ public class ManipulacaoDeDados {
         return dados.toArray(new String[0][]);
     }
 
+    public static String realizarBusca(String busca, String[][] dados) {
+        StringBuilder resultados = new StringBuilder();
+        String buscaLower = busca.toLowerCase(); 
+
+        for (String[] dado : dados) {
+            String id = dado[0];
+            String titulo = dado[1].toLowerCase();
+
+            if (naiveStringMatching(titulo, buscaLower)) {
+                resultados.append("ID: ").append(id)
+                          .append("\nTítulo: ").append(dado[1])
+                          .append("\n\n");
+            }
+        }
+
+        return resultados.toString().isEmpty() ? "[Nenhum resultado encontrado]" : resultados.toString();
+    }
+
+	public static boolean naiveStringMatching(String texto, String padrao) {
+        int n = texto.length();
+        int m = padrao.length();
+
+        for (int i = 0; i <= n - m; i++) {
+            int j;
+
+            for (j = 0; j < m; j++) {
+                if (texto.charAt(i + j) != padrao.charAt(j)) {
+                    break;
+                }
+            }
+
+            if (j == m) {
+                return true; 
+            }
+        }
+
+        return false; 
+    }
+
+
 }
