@@ -20,7 +20,13 @@ public class Cliente {
 
             while (true) {
                 System.out.print("Busca: ");
-                String busca = scanner.nextLine();
+             
+                String busca = scanner.nextLine().trim(); 
+
+                if (busca.isEmpty()) {
+                    System.out.println("Termo de busca inválido. Tente novamente.");
+                    continue; 
+                }
 
                 if (busca.equalsIgnoreCase("sair")) {
                     System.out.println("Encerrando o programa...");
