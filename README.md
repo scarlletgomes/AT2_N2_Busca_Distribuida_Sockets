@@ -12,11 +12,17 @@
 A atividade consiste na realização um projeto (em Java 17) para representar um sistema de busca distribuído utilizando sockets.
 
 # Funcionalidades
-
+Programa que utiliza servidores para fazer uma busca demandada pelo cliente em seus artigos cientificos. As buscas são feitas em conjunto, mas cada servidor tem a sua fonte de dados.
+Após a busca é enviado o resultado para o cliente.
 
 # Como Executar 
 
-Projeto realizado em Java 17, execute o arquivo main.java.
+Projeto realizado em Java 17. 
+- Se for a primeira vez, execute primeiro o arquivo pom.xml: botão direito no arquivo -> run as -> Maven install.
+- Execute primeiro o servidor B;
+- Depois execute o servidor A;
+- Por fim, execute o cliente e faça sua busca.
+
 
 
 # Tecnologias Utilizadas 
