@@ -29,11 +29,10 @@ public class ServidorB {
             String busca = in.readLine();
             System.out.println("Busca recebida do Servidor A: " + busca);
             
-        	//String[][] dadosRemotos = ManipulacaoDeDados.lerDados("arquivos_dados\\data_B.json");
+            String[][] dadosRemotos = ManipulacaoDeDados.lerDados("arquivos_dados\\data_B.json"); //!!
             
-            //MECANISMO DE BUSCAS
-            //String resultado = //FUNÇÃO DE BUSCA
-            //out.println(resultado);
+            String resultado = ManipulacaoDeDados.realizarBusca(busca, dadosRemotos);
+            out.println(resultado);
         } catch (IOException e) {
             e.printStackTrace();
         }
