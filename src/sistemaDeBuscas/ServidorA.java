@@ -30,16 +30,16 @@ public class ServidorA {
 
             String busca = in.readLine();
             System.out.println("Busca recebida do cliente: " + busca);
-            
-            //String[][] dadosLocais = ManipulacaoDeDados.lerDados("arquivos_dados\\data_A.json");
+
+            String[][] dadosLocais = ManipulacaoDeDados.lerDados("arquivos_dados\\data_A.json"); //!!
             
             // MECANISMO DE BUSCAS
             Thread threadLocal = new Thread(new Runnable() {
                 public void run() {
-                    //String resultadoLocal = //FUNÇÃO DE BUSCA
+                    String resultadoLocal = ManipulacaoDeDados.realizarBusca(busca, dadosLocais);
                     synchronized (out) {
-                        //out.println("Resultados do Servidor A:\n" + resultadoLocal);
-                        //out.println(resultadoLocal);
+                        out.println("Resultados do Servidor A:\n" + resultadoLocal);
+                        out.println(resultadoLocal);
                         out.println("FINAL_DOS_RESULTADOS");
                     }
                 }
